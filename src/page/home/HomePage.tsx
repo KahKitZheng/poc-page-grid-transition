@@ -1,8 +1,8 @@
+import DetailsPage from "../details/DetailsPage";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { imageData } from "../../data/images";
-import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
-import DetailsPage from "../details/DetailsPage";
+import { LayoutGroup, motion } from "framer-motion";
 import "./home.scss";
 
 export default function HomePage() {
